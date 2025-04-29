@@ -1,0 +1,16 @@
+# API framework and server
+fastapi[standard]==0.100.0       # core FastAPI plus standard extras :contentReference[oaicite:0]{index=0}
+uvicorn[standard]==0.22.0       # ASGI server with uvloop & httptools extras :contentReference[oaicite:1]{index=1}
+
+# Data validation
+pydantic==2.1.0                 # used by FastAPI for request/response models :contentReference[oaicite:2]{index=2}
+
+# Front-end app
+streamlit==1.26.0               # user interface for dispute submission :contentReference[oaicite:3]{index=3}
+
+# Data handling & visualization
+pandas==2.2.3                   # transaction/dispute data frames :contentReference[oaicite:4]{index=4}
+plotly==5.16.1                  # pie charts and other visual summaries :contentReference[oaicite:5]{index=5}
+
+# HTTP client
+requests==2.31.0                # calling the FastAPI backend from Streamlit :contentReference[oaicite:6]{index=6}
