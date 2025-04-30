@@ -23,7 +23,13 @@ Streamlit UI for interactive testing
 ### Project Structure
 
 ├── backend
-│   └── app.py           # FastAPI application
-    └── bank.db              # SQLite database (auto‑created)
+│   └── app.py           
+    └── bank.db              
 ├── frontend
-│   └── app.py # Streamlit frontend
+│   └── app.py 
+
+
+
+## Demo
+
+![Watch the demo] (https://www.loom.com/share/c7090174a56b437fb8508f0ba3caf2eb?sid=5efde26d-ebca-4a66-b22e-d88c4739e772)
