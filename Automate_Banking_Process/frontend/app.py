@@ -5,7 +5,7 @@ import requests
 API_URL = "http://localhost:8000/disputes"
 
 st.set_page_config(page_title="Dispute Management", page_icon="⚖️")
-st.title("⚖️ Transaction Dispute Automation")
+st.title("Transaction Dispute Automation")
 
 with st.form("dispute_form"):
     cust_id = st.text_input("Customer ID")
