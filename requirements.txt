@@ -14,3 +14,4 @@ plotly==5.16.1                  # pie charts and other visual summaries :content
 
 # HTTP client
 requests==2.31.0                # calling the FastAPI backend from Streamlit :contentReference[oaicite:6]{index=6}
+

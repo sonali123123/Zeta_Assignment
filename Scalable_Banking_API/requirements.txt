@@ -5,3 +5,4 @@ asyncpg==0.30.0             # asyncio PostgreSQL driver :contentReference[oaicit
 pydantic==2.11.1            # data validation for FastAPI models :contentReference[oaicite:4]{index=4}
 streamlit==1.44.0           # interactive front-end app :contentReference[oaicite:5]{index=5}
 requests==2.32.3            # HTTP client for backend calls from Streamlit :contentReference[oaicite:6]{index=6}
+aiomysql
